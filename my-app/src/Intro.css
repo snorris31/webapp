@@ -1,0 +1,79 @@
+.Intro {
+    background-size: cover;
+    background-color: #FFEDEB;
+    min-height: 600px;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.name {
+    font-size: 64px;
+    font-weight: 600;
+    color: #94706A;
+    height: '100%';
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aboutMe {
+    font-size: 34px;
+    color: white;
+}
+
+.AboutMe {
+    /* background-color: #E0BDB8; */
+    color: #948381;
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    background-attachment: fixed;
+}
+
+.Skills {
+    /* background-color: #E0BDB8; */
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    background-attachment: fixed;
+    background-color: #FFEDEB;
+}
+
+.skillsText {
+    width: 50%;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.aboutMeText {
+    color: #94706A;
+    width: 50%;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 10px 10px 10px 10px #FFFFFF;
+}
+
+#aboutMeTextOnly {
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+}
+
+.aboutMeTitle {
+    box-shadow: 5px 5px 5px 5px #E0BDB8;
+    background-color: #E0BDB8;
+    color: white;
+    width: 30%;
+    padding: 10px;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    display: 'inline';
+}
+
+.strikeThrough {
+    text-decoration: line-through;
+}
+.subText {
+    font-size: 24px;
+}
